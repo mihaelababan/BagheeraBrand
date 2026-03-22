@@ -1,0 +1,97 @@
+.reviewsContainer {
+  padding: 140px 5% 80px; 
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+  font-size: 3.5rem !important; 
+  font-weight: 200 !important;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: block;
+}
+.addReviewSection {
+  max-width: 700px;
+  margin: 0 auto 100px;
+  padding: 40px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+}
+
+.sectionSubtitle {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px !important;
+  font-weight: 600 !important;
+}
+
+.submitButton {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 12px 40px !important;
+  border-radius: 0 !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  transition: all 0.3s ease !important;
+}
+
+.submitButton:hover {
+  background-color: #333 !important;
+  transform: translateY(-2px);
+}
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.reviewCard {
+  padding: 30px;
+  border-radius: 0 !important;
+  border: 1px solid #f0f0f0 !important;
+  box-shadow: none !important;
+  background-color: #fafafa !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.3s ease;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.userName {
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  text-transform: uppercase;
+}
+
+.date {
+  color: #999;
+  font-size: 0.75rem !important;
+}
+
+.comment {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  line-height: 1.7;
+  color: #333;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .addReviewSection {
+    padding: 20px;
+  }
+}
