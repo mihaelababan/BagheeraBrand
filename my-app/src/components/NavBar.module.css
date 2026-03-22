@@ -1,0 +1,87 @@
+.appBar {
+  background-color: #1a1a1a !important;
+  box-shadow: none !important;
+}
+
+.toolbar {
+  justify-content: space-between;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoText {
+  font-weight: bold !important;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.navButton {
+  color: #fff !important;
+  font-weight: 300 !important;
+  margin-left: 12px !important; 
+  margin-right: 12px !important;
+  font-size: 0.9rem !important;
+  transition: opacity 0.2s ease;
+}
+
+.navButton:hover {
+  opacity: 0.7;
+}
+
+.saleButton {
+  color: #ff4d4d !important;
+  font-weight: bold !important;
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.iconButton {
+  color: white !important;
+  transition: transform 0.2s ease;
+}
+
+.iconButton:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.menuPaper {
+  background-color: #1a1a1a !important;
+  color: white !important;
+  border: 1px solid #333;
+  margin-top: 10px;
+}
+
+.menuItem {
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  padding: 10px 20px !important;
+}
+
+.menuItem:hover {
+  background-color: #333 !important;
+}
+
+.searchDialog {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 1.5rem;
+  outline: none;
+  font-family: serif;
+}

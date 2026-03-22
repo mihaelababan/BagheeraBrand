@@ -1,0 +1,63 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.heroSection {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  background-color: white;
+}
+
+.heroImageWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100vw; 
+  height: 100vh; 
+  min-height: 600px; 
+}
+.heroImageWrapper img {
+  object-fit: cover !important;
+  object-position: left !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+.heroImage {
+  object-fit: cover !important; 
+  object-position: left;
+}
+
+.spacer {
+  height: 150px;
+  width: 100%;
+}
+
+.collectionSection {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  padding-bottom: 80px; 
+}
+
+.collectionTitle {
+  text-align: center;
+  font-size: 1.5rem; 
+  font-weight: 300; 
+  text-transform: uppercase;
+  letter-spacing: 0.2em; 
+  margin-bottom: 40px; 
+  color: black;
+}
+
+.categoriesTitle {
+  font-size: 3rem !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif !important;
+  margin-bottom: 40px !important;
+}

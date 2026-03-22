@@ -1,0 +1,58 @@
+[
+  { 
+    "id": 1, 
+    "name": "Pleated Clutch", 
+    "image": "/images/womanBag1.jpg", 
+    "description": "An architectural statement clutch featuring supple burgundy leather pleats and a striking geometric.",
+    "price": "1200 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Cream Circular Ring Handle Clutch", 
+    "image": "/images/womanBag2.jpg", 
+    "description": "Elegant cream pouch with a gold ring.",
+    "price": "850 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Minimalist Asymmetric Taupe Hobo Bag", 
+    "image": "/images/womanBag3.jpg", 
+    "description": "Sleek taupe handbag with unique asymmetric stitching.",
+    "price": "950 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Black Asymmetric Buckle Shoulder Bag", 
+    "image": "/images/womanBag4.jpg", 
+    "description": "Chic black handbag featuring a bold buckle.",
+    "price": "1100 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Chocolate Suede Buckled Oversized Tote", 
+    "image": "/images/womanBag5.jpg", 
+    "description": "Large suede tote with thin belt detail.",
+    "price": "780 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Tan Pebbled Leather Trapezoid Handbag", 
+    "image": "/images/womanBag6.jpg", 
+    "description": "Elegant textured bag with gold cylinder clasp.",
+    "price": "1400 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Camel Structured Leather Top-Handle Bag", 
+    "image": "/images/womanBag7.jpg", 
+    "description": "Classic camel satchel with sleek gold hardware.",
+    "price": "900 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Beige Saffiano Leather Trapeze Satchel", 
+    "image": "/images/womanBag8.jpg", 
+    "description": "Elegant structured beige bag with gold clasp.",
+    "price": "1050 MDL"
+  }
+]

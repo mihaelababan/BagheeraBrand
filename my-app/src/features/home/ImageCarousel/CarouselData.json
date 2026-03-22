@@ -1,0 +1,10 @@
+[
+  { "src": "/images/gentiFemei.jpg", "label": "WOMAN BAGS" },
+  { "src": "/images/manBags.jpg", "label": "MAN BAGS" },
+  { "src": "/images/womanWallets.jpg", "label": "WOMAN WALLETS" },
+  { "src": "/images/manWallets.jpg", "label": "MAN WALLETS" },
+  { "src": "/images/belts.jpg", "label": "BELTS" },
+  { "src": "/images/footwear.jpg", "label": "FOOTWEAR" },
+  { "src": "/images/Python Leather Bag.jpg", "label": "PYTHON LEATHER ITEMS" },
+  { "src": "/images/Crocodile Leather Item.jpg", "label": "CROCODILE LEATHER ITEMS" }
+]

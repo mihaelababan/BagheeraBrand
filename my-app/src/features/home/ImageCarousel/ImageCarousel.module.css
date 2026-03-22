@@ -1,0 +1,60 @@
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.viewport {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 40px;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+  transform: translateX(calc(-1 * var(--offset)));
+  width: 200%;
+}
+
+.card {
+  width: 12.5%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squareImage {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.navButton {
+  position: absolute !important;
+  z-index: 10;
+  background-color: black !important;
+  color: white !important;
+}
+
+.navButton:hover {
+  background-color: #333 !important;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.label {
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  text-align: center;
+}
