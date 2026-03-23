@@ -22,7 +22,7 @@ export default function ReviewsPage() {
       name: "Sophia Bennett",
       rating: 5,
       date: "14 Mar 2026",
-      comment: "The silk dress is a masterpiece. The fit is true to size and the fabric feels incredibly luxurious on the skin.",
+      comment: "The bag is a masterpiece. The fit is true to size and the fabric feels incredibly luxurious on the skin.",
       avatar: "S"
     },
     {

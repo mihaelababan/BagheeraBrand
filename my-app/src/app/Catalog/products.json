@@ -1,4 +1,5 @@
-[
+{
+  "womanBags": [
   { 
     "id": 1, 
     "name": "Pleated Clutch", 
@@ -55,4 +56,413 @@
     "description": "Elegant structured beige bag with gold clasp.",
     "price": "1050 MDL"
   }
+],
+"manBags": [
+  { 
+    "id": 1, 
+    "name": "Black Leather Messenger Bag", 
+    "image": "/images/manBag1.jpg", 
+    "description": "Stylish black leather messenger bag with multiple compartments.", 
+    "price": "800 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Brown Leather Briefcase", 
+    "image": "/images/manBag2.jpg", 
+    "description": "Classic brown leather briefcase with sturdy handles and a spacious interior.", 
+    "price": "1200 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Navy Blue Canvas Backpack", 
+    "image": "/images/manBag3.jpg", 
+    "description": "Durable navy blue canvas backpack with multiple pockets and adjustable straps.", 
+    "price": "600 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Navy Blue Canvas Backpack", 
+    "image": "/images/manBag4.jpg", 
+    "description": "Durable navy blue canvas backpack with multiple pockets and adjustable straps.", 
+    "price": "600 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Grey Nylon Duffle Bag", 
+    "image": "/images/manBag5.jpg", 
+    "description": "Lightweight grey nylon duffle bag perfect for gym or weekend trips.", 
+    "price": "400 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Tan Leather Satchel", 
+    "image": "/images/manBag6.jpg", 
+    "description": "Elegant tan leather satchel with a vintage-inspired design.", 
+    "price": "900 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Black Leather Crossbody Bag", 
+    "image": "/images/manBag7.jpg", 
+    "description": "Sleek black leather crossbody bag with an adjustable strap.", 
+    "price": "700 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manBag8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  }
+], 
+"womanWallets": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/womanWallet8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  }
+
+
+],
+"manWallets": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/manWallet8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"      
+}
+],
+"belts": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/belt8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+}
+],
+"footwear": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/footwear8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+}
+],
+"python": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/python8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+}
+],
+"crocodile": [
+   { 
+    "id": 1, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile1.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 2, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile2.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 3, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile3.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 4, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile4.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 5, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile5.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 6, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile6.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 7, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile7.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+  },
+  { 
+    "id": 8, 
+    "name": "Olive Green Canvas Tote Bag", 
+    "image": "/images/crocodile8.jpg", 
+    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "price": "350 MDL"
+}
 ]
+}
