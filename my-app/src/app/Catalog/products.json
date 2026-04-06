@@ -118,59 +118,59 @@
 "womanWallets": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Mulberry Darley Wallet", 
     "image": "/images/womanWallet1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant grained leather wallet with a gold Postman's Lock, multiple card slots, and a secure zipped pocket.", 
+    "price": "1850 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Celine Small Trifold Wallet", 
     "image": "/images/womanWallet2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant trifold wallet with multiple card slots and a secure zipped pocket.", 
+    "price": "1200 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Bottega Veneta Bi-Fold Wallet", 
     "image": "/images/womanWallet3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant bi-fold wallet with multiple card slots and a secure zipped pocket.", 
+    "price": "2100 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Celine Large Zipped Wallet", 
     "image": "/images/womanWallet4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Spacious grained calfskin wallet with a gold-tone perimeter zipper, internal coin pocket, and twelve card slots.", 
+    "price": "1500 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Tod's T Timeless Wallet", 
     "image": "/images/womanWallet5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant trifold wallet with multiple card slots and a secure zipped pocket.", 
+    "price": "1200 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Classic Trifold Wallet", 
     "image": "/images/womanWallet6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Slim faux-leather wallet in burgundy featuring a minimalist gold bar.", 
+    "price": "1200 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Roulens Leaf Wallet", 
     "image": "/images/womanWallet7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant leaf-shaped wallet with multiple card slots and a secure zipped pocket.", 
+    "price": "1400 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Pink Bow Clutch Wallet", 
     "image": "/images/womanWallet8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant clutch wallet with a pink bow detail and multiple card slots.", 
+    "price": "1300 MDL"
   }
 
 
@@ -178,291 +178,291 @@
 "manWallets": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Jiangbao Fashion Wallet", 
     "image": "/images/manWallet1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Classic black bifold wallet with contrast stitching, featuring a unique metal corner accent and embossed logo.", 
+    "price": "1350 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Vintage Brown Bifold Wallet", 
     "image": "/images/manWallet2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Slim bifold wallet in textured brown faux-leather with a metallic \"B\" emblem", 
+    "price": "1150 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "MenBense Modern Wallet", 
     "image": "/images/manWallet3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Modern wallet with a sleek design and multiple card slots.", 
+    "price": "1200 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "MenBense Two-Tone Bifold Wallet", 
     "image": "/images/manWallet4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Two-tone bifold wallet with a modern design and multiple card slots.", 
+    "price": "1250 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Jiangbao Fashion Wallet", 
     "image": "/images/manWallet5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Classic black bifold wallet with contrast stitching, featuring a unique metal corner accent and embossed logo.", 
+    "price": "1350 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Vintage Brown Bifold Wallet", 
     "image": "/images/manWallet6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Slim bifold wallet in textured brown faux-leather with a metallic \"B\" emblem", 
+    "price": "1150 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Shabili Textured Leather Wallet", 
     "image": "/images/manWallet7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant brown bifold wallet with a marbled texture.", 
+    "price": "3520 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Men's Embossed Geometric Wallet", 
     "image": "/images/manWallet8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"      
+    "description": "Modern black bifold wallet featuring a unique 3D-effect geometric embossed pattern and a sleek silver metal accent.", 
+    "price": "2300 MDL"      
 }
 ],
 "belts": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Leather Belt - Navy Blue", 
     "image": "/images/belt1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable navy leather belt with tonal edge stitching and a matte gunmetal square buckle for a modern professional look.", 
+    "price": "650 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Leather Belt - Dark Brown", 
     "image": "/images/belt2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable dark brown leather belt with tonal edge stitching and a matte gunmetal square buckle for a modern professional look.", 
+    "price": "950 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Leather Belt - Cognac", 
     "image": "/images/belt3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable cognac leather belt with tonal edge stitching and a matte gunmetal square buckle for a modern professional look.", 
+    "price": "870 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Patterned Belt - Tan", 
     "image": "/images/belt4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable tan patterned leather belt with tonal edge stitching and a matte gunmetal square buckle for a modern professional look.", 
+    "price": "750 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Men's Minimalist Black Leather Belt", 
     "image": "/images/belt5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable black leather belt with a minimalist design and a matte gunmetal square buckle.", 
+    "price": "650 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Men's Executive Ratchet Belt", 
     "image": "/images/belt6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable executive ratchet belt with a modern design and a matte gunmetal square buckle.", 
+    "price": "950 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Braided Casual Belt", 
     "image": "/images/belt7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Casual braided leather belt with a natural texture and a matte gunmetal square buckle.", 
+    "price": "450 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Luxury Style Statement Belt", 
     "image": "/images/belt8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable luxury statement belt with a modern design and a matte gunmetal square buckle.", 
+    "price": "1200 MDL"
 }
 ],
 "footwear": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Urban Retro Sneakers", 
     "image": "/images/footwear1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Stylish streetwear sneakers featuring a multi-textured panel design in grey, navy, and white with a durable rubber sole.", 
+    "price": "1150 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Men's Clean Casual Shoes", 
     "image": "/images/footwear2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Clean and minimalist casual shoes for everyday wear.", 
+    "price": "450 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Rugged Outdoor Boots", 
     "image": "/images/footwear3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Durable outdoor boots designed for rugged terrain and harsh weather conditions.", 
+    "price": "1950 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Modern Performance Runners", 
     "image": "/images/footwear4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "description": "Durable running shoes with advanced cushioning and a lightweight design.", 
     "price": "350 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Casual Chelsea Boots", 
     "image": "/images/footwear5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Timeless pull-on boots in dark brown leather with elastic side panels and a refined tapered finish.", 
+    "price": "850 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Summer Canvas Slip-Ons", 
     "image": "/images/footwear6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Lightweight and comfortable slip-on shoes perfect for warm weather.", 
+    "price": "1350 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Sporty Hybrid Loafers", 
     "image": "/images/footwear7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Contemporary navy suede loafers combining the comfort of a sneaker with the elegance of a classic moccasin.", 
+    "price": "3150 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Casual Chelsea Boots", 
     "image": "/images/footwear8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Timeless pull-on boots in dark brown leather with elastic side panels and a refined tapered finish.", 
+    "price": "3350 MDL"
 }
 ],
 "python": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Skin Card Holder", 
     "image": "/images/python1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Ultra-slim card holder crafted from genuine python skin, showcasing unique natural scale patterns and a luxurious texture.", 
+    "price": "450 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Bifold Wallet", 
     "image": "/images/python2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Premium men's wallet with a full python skin exterior and a soft calfskin interior for durability and high-end style.", 
+    "price": "650 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Skin Clutch Wallet", 
     "image": "/images/python3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Elegant clutch wallet crafted from genuine python skin, perfect for carrying essentials in style.", 
+    "price": "850 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Exotic Python Skin Loafers", 
     "image": "/images/python4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "Handcrafted formal shoes made from high-grade python leather, featuring a sleek silhouette and a comfortable leather sole.", 
+    "price": "1450 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Skin Luxury Backpack", 
     "image": "/images/python5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "description": "A high-end statement backpack handcrafted from genuine python skin, featuring the iconic natural scale pattern in shades of cream, brown, and charcoal.", 
     "price": "350 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Skin Slim Wallet", 
     "image": "/images/python6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A sleek and compact wallet crafted from genuine python skin, perfect for carrying essentials in style.", 
+    "price": "650 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Luxury Handbag - White", 
     "image": "/images/python7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A stunning statement piece crafted from rare, bleached white python skin. This handbag showcases the intricate, symmetrical beauty of the scales in a clean, minimalist aesthetic.", 
+    "price": "2250 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Python Leather Cap - Brown", 
     "image": "/images/python8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
+    "description": "A stylish cap crafted from high-quality python leather, perfect for adding a touch of elegance to any outfit.", 
     "price": "350 MDL"
 }
 ],
 "crocodile": [
    { 
     "id": 1, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Forest Green Crocodile-Embossed Tote", 
     "image": "/images/crocodile1.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A spacious and structured tote bag in deep emerald green. Featuring a high-gloss crocodile texture, sturdy top handles, and gold-tone hardware for a sophisticated look.", 
+    "price": "1150 MDL"
   },
   { 
     "id": 2, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Mint Croc Crossbody", 
     "image": "/images/crocodile2.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A fresh, light green compact bag with a refined croc-skin finish. Perfect for spring outfits, featuring a delicate chain strap and a modern rectangular silhouette.", 
+    "price": "3750 MDL"
   },
   { 
     "id": 3, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Large Mocha Croc-Textured Shopper", 
     "image": "/images/crocodile3.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "An extra-roomy daily bag in a warm coffee-brown shade. Designed for maximum capacity without compromising style, with reinforced edges and a premium textured finish.", 
+    "price": "1350 MDL"
   },
   { 
     "id": 4, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Geometric Avant-Garde Bag", 
     "image": "/images/crocodile4.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A modern, geometrically designed bag with a sophisticated aesthetic.", 
+    "price": "2850 MDL"
   },
   { 
     "id": 5, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Elegant Black Croc-Leather Evening Bag", 
     "image": "/images/crocodile5.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A sophisticated evening bag crafted from high-quality croc-leather, perfect for formal occasions.", 
+    "price": "7750 MDL"
   },
   { 
     "id": 6, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Unique Edition Multi-Tonal Croc Bag", 
     "image": "/images/crocodile6.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A one-of-a-kind bag featuring an unconventional finish that catches the light. This piece combines rare textures with a bold, creative silhouette.", 
+    "price": "2600 MDL"
   },
   { 
     "id": 7, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Olive Croc Bifold Wallet", 
     "image": "/images/crocodile7.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A slim and practical wallet in a rich olive green. The crocodile-embossed exterior provides a luxurious grip, while the interior offers organized slots for cards and notes.", 
+    "price": "1300 MDL"
   },
   { 
     "id": 8, 
-    "name": "Olive Green Canvas Tote Bag", 
+    "name": "Deep Bordeaux Croc-Textured Beauty Kit", 
     "image": "/images/crocodile8.jpg", 
-    "description": "Casual olive green canvas tote bag with sturdy handles.", 
-    "price": "350 MDL"
+    "description": "A luxurious beauty kit featuring a deep bordeaux croc-textured finish. Perfect for storing your favorite skincare and makeup essentials.", 
+    "price": "1800 MDL"
 }
 ]
 }
