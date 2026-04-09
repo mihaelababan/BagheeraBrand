@@ -1,0 +1,37 @@
+.gridContainer {
+  margin-top: 32px !important;
+}
+
+.card {
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  display: block;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.imageContainer {
+  position: relative;
+  height: 400px;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.content {
+  padding: 16px;
+  text-align: center;
+}
+
+.linkTitle {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
