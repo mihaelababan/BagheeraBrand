@@ -1,125 +1,83 @@
 "use client";
-import React from 'react';
-import { Typography, Container, Box } from '@mui/material';
+
+import React, { useState, useEffect } from 'react';
+import { Typography, Container, Box, CircularProgress, Alert } from '@mui/material';
 import ProductCard from '../../features/catalog/ProductCard/ProductCard';
-import products from './products.json';
 import styles from './catalog.module.css';
+import axios from 'axios';
 
 export default function CatalogPage() {
+  const [products, setProducts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchProducts() {
+      try {
+        const url = 'http://localhost:1337/api/projects?populate=*&pagination[page]=1&pagination[pageSize]=100';
+        
+        const response = await axios.get(url);
+        
+        console.log("Meta date:", response.data.meta);
+        setProducts(response.data.data || []);
+      } catch (error) {
+        console.error('Eroare:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchProducts();
+  }, []);
+
+  const filterByCategory = (categoryTitle: string) => {
+    return products.filter((p: any) => {
+      const strapiCategory = p?.categorie?.Title;
+      if (!strapiCategory) return false;
+      return strapiCategory.trim().toLowerCase() === categoryTitle.toLowerCase();
+    });
+  };
+
+  const sections = [
+    { id: "woman-bags", label: "WOMAN BAGS", strapi: "Woman Bags" },
+    { id: "man-bags", label: "MAN BAGS", strapi: "Man Bags" },
+    { id: "woman-wallets", label: "WOMAN WALLETS", strapi: "Woman Wallets" },
+    { id: "man-wallets", label: "MAN WALLETS", strapi: "Man Wallets" },
+    { id: "belts", label: "BELTS", strapi: "Belts" },
+    { id: "footwear", label: "FOOTWEAR", strapi: "Footwear" },
+    { id: "python-leather-items", label: "PYTHON LEATHER ITEMS", strapi: "Python leather items" },
+    { id: "crocodile-leather-items", label: "CROCODILE LEATHER ITEMS", strapi: "Crocodile leather items" },
+  ];
+
+  if (loading) return <Box sx={{ display: 'flex', justifyContent: 'center', p: 10 }}><CircularProgress /></Box>;
+
   return (
     <Container maxWidth="xl" className={styles.catalogContainer}>
+      <Typography variant="h1" className={styles.mainTitle} sx={{ mb: 4 }}>Catalog</Typography>
 
-      <Typography
-        variant="h1"
-        className={styles.mainTitle}
-        sx={{ fontSize: { xs: '2.5rem', md: '3.5rem' } }}
-      >
-        Catalog
-      </Typography>
+      <Alert severity={products.length >= 60 ? "success" : "warning"} sx={{ mb: 4 }}>
+        Produse primite de la server: **{products.length}**
+      </Alert>
 
-      <Typography className={styles.subTitle} id = "woman-bags">
-        WOMAN BAGS
-      </Typography>
-
-      <Box className={styles.productsGrid}>
-        {products.womanBags.map((product) => (
-          <Box key={product.id} className={styles.productWrapper}>
-            <ProductCard {...product} />
+      {sections.map((section) => {
+        const filtered = filterByCategory(section.strapi);
+        return (
+          <Box key={section.id} sx={{ mb: 6 }}>
+            <Typography className={styles.subTitle} id={section.id}>
+              {section.label}
+            </Typography>
+            <Box className={styles.productsGrid}>
+              {filtered.length > 0 ? (
+                filtered.map((product: any) => (
+                  <Box key={product.id} className={styles.productWrapper}>
+                    <ProductCard {...product} />
+                  </Box>
+                ))
+              ) : (
+                <Typography color="text.disabled">Niciun produs gasit in "{section.strapi}".</Typography>
+              )}
+            </Box>
           </Box>
-        ))}
-      </Box>
-      <Box sx={{ width: '100%', height: '50px' }} />
-      <Box sx={{ width: '100%', height: '50px' }} />
-      <Typography className={styles.subTitle} id = "man-bags">
-        MAN BAGS
-      </Typography>
-      <Box className={styles.productsGrid}>
-        {products.manBags.map((product) => (
-          <Box key={product.id} className={styles.productWrapper}>
-            <ProductCard {...product} />
-          </Box>
-        ))}
-        </Box>
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "woman-wallets">
-          WOMAN WALLETS
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.womanWallets.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "man-wallets">
-        MAN WALLETS
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.manWallets.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-          <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "belts" >
-        BELTS
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.belts.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "footwear">
-        FOOTWEAR
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.footwear.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-
-  <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "python-leather-items">
-        PYTHON LEATHER ITEMS
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.python.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-         <Box sx={{ width: '100%', height: '50px' }} />
-        <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle} id = "crocodile-leather-items">
-       CROCODILE LEATHER ITEMS
-        </Typography>
-        <Box className={styles.productsGrid}>
-          {products.crocodile.map((product) => (
-            <Box key={product.id} className={styles.productWrapper}>
-              <ProductCard {...product} />
-            </Box>
-          ))}
-        </Box>
-
-        
+        );
+      })}
     </Container>
   );
 }

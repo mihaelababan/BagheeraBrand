@@ -1,48 +1,42 @@
 "use client";
 import React, { useState } from 'react';
-import { 
-  Typography, 
-  Card, 
-  CardMedia, 
-  CardContent, 
-  IconButton, 
-  Box,
-  Button 
-} from '@mui/material';
+import { Typography, Card, CardContent, CardMedia, Box, IconButton, Button } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import styles from './ProductCard.module.css';
 
-interface ProductProps {
-  image: string;
-  name: string;
-  description: string;
-  price: string;
-}
-
-const ProductCard = ({ image, name, description, price }: ProductProps) => {
+export default function ProductCard({ Name, Price, Image, Description }: any) {
   const [isFavorite, setIsFavorite] = useState(false);
+  const strapiBaseUrl = 'http://localhost:1337';
 
-  const toggleFavorite = () => {
+  const imageUrl = (Image && Image.length > 0)
+    ? `${strapiBaseUrl}${Image[0].url}`
+    : 'https://via.placeholder.com/300x400?text=Fara+Imagine';
+
+  const toggleFavorite = (e: React.MouseEvent) => {
+    e.preventDefault(); 
     setIsFavorite(!isFavorite);
   };
 
   return (
     <Card className={styles.card}>
-      
       <IconButton 
+        className={`${styles.favoriteButton} ${isFavorite ? styles.activeFavorite : ''}`} 
         onClick={toggleFavorite}
-        className={styles.favoriteButton}
-        style={{ color: isFavorite ? '#ff4d4d' : '#cccccc' }}
+        disableRipple
       >
-        <FavoriteIcon />
+        {isFavorite ? (
+          <FavoriteIcon sx={{ color: '#ff4d4d' }} /> 
+        ) : (
+          <FavoriteBorderIcon sx={{ color: '#e0e0e0' }} />
+        )}
       </IconButton>
 
       <Box className={styles.imageContainer}>
         <CardMedia
           component="img"
-          image={image}
-          alt={name}
+          image={imageUrl}
+          alt={Name || "Produs"}
           className={styles.productImage}
         />
       </Box>
@@ -50,32 +44,24 @@ const ProductCard = ({ image, name, description, price }: ProductProps) => {
       <CardContent className={styles.content}>
         <Box>
           <Typography variant="h6" className={styles.productName}>
-            {name}
+            {Name}
           </Typography>
-          
-          <Typography variant="body2" color="text.secondary" className={styles.description}>
-            {description}
-          </Typography>
+          {Description && (
+            <Typography variant="body2" className={styles.description}>
+              {Description}
+            </Typography>
+          )}
         </Box>
 
         <Box>
           <Typography variant="h6" className={styles.price}>
-            {price}
+            {Price} MDL
           </Typography>
-
-          <Button 
-            variant="contained" 
-            fullWidth
-            startIcon={<ShoppingBagIcon />}
-            className={styles.buyButton}
-            onClick={() => alert(`Ai adăugat în coș: ${name}`)}
-          >
-            BUY
+          <Button fullWidth className={styles.buyButton}>
+            Cumpără
           </Button>
         </Box>
       </CardContent>
     </Card>
   );
-};
-
-export default ProductCard;
+}
