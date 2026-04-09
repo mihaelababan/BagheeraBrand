@@ -7,7 +7,6 @@ import styles from './AboutUs.module.css';
 export default function AboutPage() {
   return (
     <main className={styles.mainWrapper}>
-      {/* Hero Section */}
       <Container maxWidth="lg" className={styles.heroHeader}>
         <Typography variant="h2" className={styles.mainTitle}>
           About Baghera Brand
@@ -18,7 +17,6 @@ export default function AboutPage() {
         <QuickLinks />
       </Container>
 
-      {/* Section: Who We Are */}
       <section id="who-we-are" className={styles.greySection}>
         <Container maxWidth="lg">
           <Grid container spacing={8} alignItems="center">
@@ -56,7 +54,6 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      {/* Section: Quality Commitment */}
       <section id="quality" className={styles.whiteSection}>
         <Container maxWidth="lg" sx={{ textAlign: 'center' }}>
           <Typography variant="h3" className={styles.centeredTitle}>
@@ -85,8 +82,6 @@ export default function AboutPage() {
           </Grid>
         </Container>
       </section>
-
-      {/* Section: Certificates */}
       <section className={styles.greySection}>
         <Container maxWidth="lg">
           <Typography variant="h3" className={styles.centeredTitle}>
@@ -96,7 +91,6 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      {/* Section: Location */}
       <section id="location" className={styles.whiteSection}>
         <Container maxWidth="lg">
           <Typography variant="h3" className={styles.centeredTitle}>

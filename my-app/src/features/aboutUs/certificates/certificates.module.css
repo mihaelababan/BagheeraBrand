@@ -25,7 +25,7 @@
 
 .imageWrapper {
   position: relative;
-  aspect-ratio: 3 / 4; /* Păstrează proporția documentelor A4 */
+  aspect-ratio: 3 / 4; 
 }
 
 .certImg {

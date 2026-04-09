@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Grid as Grid, Typography } from '@mui/material'; // Folosim Grid2 pentru versiunile noi
+import { Grid as Grid, Typography } from '@mui/material'; 
 import styles from './QuickLinks.module.css';
 
 const links = [
@@ -13,7 +13,6 @@ export const QuickLinks = () => (
   <Grid container spacing={4} className={styles.gridContainer}>
     {links.map((item, index) => (
       <Grid size={{ xs: 12, md: 4 }} key={index}> 
-        {/* ^ În MUI nou folosim 'size' în loc de 'xs' și 'md' direct, și eliminăm 'item' */}
         <Link href={item.href} className={styles.card}>
           <div className={styles.imageContainer}>
             <Image 
