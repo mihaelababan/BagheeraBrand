@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Leather Tote",
+    "image": "/images/sale1.jpg",
+    "oldPrice": "1800 MDL",
+    "newPrice": "1260 MDL",
+    "discount": "-30%",
+    "gridSize": { "xs": 12, "md": 6 }
+  },
+  {
+    "id": 2,
+    "title": "Urban Backpack",
+    "image": "/images/sale2.jpg",
+    "oldPrice": "2100 MDL",
+    "newPrice": "1680 MDL",
+    "discount": "-20%",
+    "gridSize": { "xs": 12, "md": 6 }
+  },
+  {
+    "id": 3,
+    "title": "Mini Crossbody",
+    "image": "/images/sale3.jpg",
+    "oldPrice": "950 MDL",
+    "newPrice": "760 MDL",
+    "discount": "-20%",
+    "gridSize": { "xs": 12, "md": 4 }
+  },
+  {
+    "id": 4,
+    "title": "Business Briefcase",
+    "image": "/images/sale4.jpg",
+    "oldPrice": "3200 MDL",
+    "newPrice": "2400 MDL",
+    "discount": "-25%",
+    "gridSize": { "xs": 12, "md": 4 }
+  },
+  {
+    "id": 5,
+    "title": "Evening Clutch",
+    "image": "/images/sale5.jpg",
+    "oldPrice": "1100 MDL",
+    "newPrice": "825 MDL",
+    "discount": "-25%",
+    "gridSize": { "xs": 12, "md": 4 }
+  }
+]
