@@ -1,10 +1,10 @@
 [
-  { "src": "/images/gentiFemei.jpg", "label": "WOMAN BAGS" },
-  { "src": "/images/manBags.jpg", "label": "MAN BAGS" },
-  { "src": "/images/womanWallets.jpg", "label": "WOMAN WALLETS" },
-  { "src": "/images/manWallets.jpg", "label": "MAN WALLETS" },
-  { "src": "/images/belts.jpg", "label": "BELTS" },
-  { "src": "/images/footwear.jpg", "label": "FOOTWEAR" },
-  { "src": "/images/Python Leather Bag.jpg", "label": "PYTHON LEATHER ITEMS" },
-  { "src": "/images/Crocodile Leather Item.jpg", "label": "CROCODILE LEATHER ITEMS" }
+  { "src": "/images/gentiFemei.jpg", "label": "WOMAN BAGS", "href": "/Catalog#woman-bags" },
+  { "src": "/images/manBags.jpg", "label": "MAN BAGS", "href": "/Catalog#man-bags" },
+  { "src": "/images/womanWallets.jpg", "label": "WOMAN WALLETS", "href": "/Catalog#woman-wallets" },
+  { "src": "/images/manWallets.jpg", "label": "MAN WALLETS", "href": "/Catalog#man-wallets" },
+  { "src": "/images/belts.jpg", "label": "BELTS", "href": "/Catalog#belts" },
+  { "src": "/images/footwear.jpg", "label": "FOOTWEAR", "href": "/Catalog#footwear" },
+  { "src": "/images/Python Leather Bag.jpg", "label": "PYTHON LEATHER ITEMS", "href": "/Catalog#python-leather-items" },
+  { "src": "/images/Crocodile Leather Item.jpg", "label": "CROCODILE LEATHER ITEMS", "href": "/catalog#crocodile-leather-items" }
 ]

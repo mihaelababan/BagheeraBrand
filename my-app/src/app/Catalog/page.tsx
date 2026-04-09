@@ -17,7 +17,7 @@ export default function CatalogPage() {
         Catalog
       </Typography>
 
-      <Typography className={styles.subTitle}>
+      <Typography className={styles.subTitle} id = "woman-bags">
         WOMAN BAGS
       </Typography>
 
@@ -30,7 +30,7 @@ export default function CatalogPage() {
       </Box>
       <Box sx={{ width: '100%', height: '50px' }} />
       <Box sx={{ width: '100%', height: '50px' }} />
-      <Typography className={styles.subTitle}>
+      <Typography className={styles.subTitle} id = "man-bags">
         MAN BAGS
       </Typography>
       <Box className={styles.productsGrid}>
@@ -42,7 +42,7 @@ export default function CatalogPage() {
         </Box>
         <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "woman-wallets">
           WOMAN WALLETS
         </Typography>
         <Box className={styles.productsGrid}>
@@ -55,7 +55,7 @@ export default function CatalogPage() {
 
         <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "man-wallets">
         MAN WALLETS
         </Typography>
         <Box className={styles.productsGrid}>
@@ -68,7 +68,7 @@ export default function CatalogPage() {
 
           <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "belts" >
         BELTS
         </Typography>
         <Box className={styles.productsGrid}>
@@ -81,7 +81,7 @@ export default function CatalogPage() {
 
         <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "footwear">
         FOOTWEAR
         </Typography>
         <Box className={styles.productsGrid}>
@@ -95,7 +95,7 @@ export default function CatalogPage() {
 
   <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "python-leather-items">
         PYTHON LEATHER ITEMS
         </Typography>
         <Box className={styles.productsGrid}>
@@ -108,7 +108,7 @@ export default function CatalogPage() {
 
          <Box sx={{ width: '100%', height: '50px' }} />
         <Box sx={{ width: '100%', height: '50px' }} />
-        <Typography className={styles.subTitle}>
+        <Typography className={styles.subTitle} id = "crocodile-leather-items">
        CROCODILE LEATHER ITEMS
         </Typography>
         <Box className={styles.productsGrid}>

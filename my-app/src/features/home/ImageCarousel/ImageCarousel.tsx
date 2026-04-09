@@ -4,6 +4,7 @@ import { Box, IconButton, Typography } from '@mui/material';
 import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material';
 import Image from 'next/image';
 import styles from './ImageCarousel.module.css';
+import Link from 'next/link';
 
 import products from './CarouselData.json';
 
@@ -29,7 +30,8 @@ export default function ImageCarousel() {
           style={{ '--offset': `${page * 50}%` } as React.CSSProperties}
         >
           {products.map((item, index) => (
-            <Box key={index} className={styles.card}>
+   
+            <Box key={index} component={Link} href={item.href} className={styles.card}>
               <Box className={styles.squareImage}>
                 <Image 
                   src={item.src} 
@@ -42,6 +44,7 @@ export default function ImageCarousel() {
                 {item.label}
               </Typography>
             </Box>
+      
           ))}
         </Box>
       </Box>
