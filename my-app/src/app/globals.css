@@ -4,3 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+/* Ajustează valoarea 80px în funcție de înălțimea headerului tău */
+[id] {
+  scroll-margin-top: 100px; 
+}
