@@ -5,24 +5,15 @@ import ImageCarousel from "../features/home/ImageCarousel/ImageCarousel";
 import { Typography } from "@mui/material";
 import styles from "./page.module.css";
 
+import HeroSlider from "../features/home/HeroSlider/HeroSlider"; // Importă slider-ul nou
+
 export default function Home() {
   return (
     <main className={styles.mainContainer}>
-
-     <section className={styles.heroSection}>
-  <div className={styles.heroImageWrapper}>
-    <Image
-      src="/images/geanta.jpg"
-      alt="Bagheera Hero"
-      fill
-      priority
-      style={{ 
-        objectFit: 'cover', 
-        objectPosition: 'left center' 
-      }}
-    />
-  </div>
-</section>
+      <section className={styles.heroSection}>
+        <HeroSlider />
+      </section>
+     
 
       <div className={styles.spacer} />
 
