@@ -26,7 +26,7 @@ export const SaleCard = ({ title, image, oldPrice, newPrice, discount }: SaleCar
           </Typography>
         </Box>
         <Button variant="outlined" className={styles.button}>
-          Detalii Produs
+          Product Details
         </Button>
       </div>
     </div>

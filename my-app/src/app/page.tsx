@@ -5,7 +5,7 @@ import ImageCarousel from "../features/home/ImageCarousel/ImageCarousel";
 import { Typography } from "@mui/material";
 import styles from "./page.module.css";
 
-import HeroSlider from "../features/home/HeroSlider/HeroSlider"; // Importă slider-ul nou
+import HeroSlider from "../features/home/HeroSlider/HeroSlider"; 
 
 export default function Home() {
   return (
