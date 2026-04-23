@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: #000;
+}
+
+.heroSide {
+  flex: 1;
+  position: relative;
+  background-image: url('/images/geanta.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+.heroSide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.brandName {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-family: serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.formSide {
+  flex: 1;
+  background: #fff;
+  padding: 100px 80px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.sectionNav {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.navLink {
+  cursor: pointer;
+  padding-bottom: 15px;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #bbb;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.activeLink {
+  color: #000;
+  font-weight: 700;
+}
+
+.activeLink::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+.contentWrapper {
+  min-height: 400px; 
+}
+
+.inputGroup {
+  margin-bottom: 35px;
+}
+
+.customInput :global(.MuiInput-underline:before) {
+  border-bottom-color: #eee;
+}
+.customInput :global(.MuiInput-underline:after) {
+  border-bottom-color: #000;
+}
+.customInput :global(.MuiFormLabel-root) {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.blackButton {
+  margin-top: 20px !important;
+  background: #000 !important;
+  color: #fff !important;
+  padding: 16px 50px !important;
+  border-radius: 0 !important;
+  letter-spacing: 3px;
+  font-size: 0.7rem !important;
+  transition: all 0.4s ease !important;
+}
+
+.blackButton:hover {
+  background: #333 !important;
+  letter-spacing: 4px;
+}
+
+.emptyMessage {
+  letter-spacing: 1px;
+  color: #888;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
