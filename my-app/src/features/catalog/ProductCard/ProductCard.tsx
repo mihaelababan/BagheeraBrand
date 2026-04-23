@@ -1,20 +1,39 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Card, CardContent, CardMedia, Box, IconButton, Button } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import styles from './ProductCard.module.css';
 
-export default function ProductCard({ Name, Price, Image, Description }: any) { //ia json de la strapi
+export default function ProductCard({ id, Name, Price, Image, Description }: any) { //ia json de la strapi
   const [isFavorite, setIsFavorite] = useState(false);
+  
   const strapiBaseUrl = 'http://localhost:1337';
 
   const imageUrl = (Image && Image.length > 0) //verifica daca exista imagine
     ? `${strapiBaseUrl}${Image[0].url}` //construieste url complet pentru imagine
     : 'https://via.placeholder.com/300x400?text=Fara+Imagine';
 
+    useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    if (favorites.includes(id)) {
+      setIsFavorite(true);
+    }
+  }, [id]);
+
   const toggleFavorite = (e: React.MouseEvent) => {
-    e.preventDefault(); 
+    e.preventDefault();
+    e.stopPropagation(); 
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    let updatedFavorites;
+
+    if (isFavorite) {
+      updatedFavorites = favorites.filter((favId: any) => favId !== id);
+    } else {
+      updatedFavorites = [...favorites, id];
+    }
+
+    localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
     setIsFavorite(!isFavorite);
   };
 
@@ -26,6 +45,7 @@ export default function ProductCard({ Name, Price, Image, Description }: any) { 
         disableRipple
       >
         {isFavorite ? (
+          
           <FavoriteIcon sx={{ color: '#ff4d4d' }} /> 
         ) : (
           <FavoriteBorderIcon sx={{ color: '#e0e0e0' }} />

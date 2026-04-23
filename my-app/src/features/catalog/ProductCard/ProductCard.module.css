@@ -102,3 +102,9 @@
 .buyButton:hover {
   background-color: #333 !important;
 }
+.favoriteIcon {
+  transition: transform 0.2s ease;
+}
+.favoriteIcon:active {
+  transform: scale(1.3);
+}
