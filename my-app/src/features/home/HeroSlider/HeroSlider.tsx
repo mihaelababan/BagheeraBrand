@@ -7,7 +7,7 @@ import styles from './HeroSlider.module.css';
 
 const images = [
   "/images/geanta.jpg",
-  "/images/geanta2.jpg", 
+  "/images/geanta1.jpg", 
   "/images/geanta3.jpg"
 ];
 
