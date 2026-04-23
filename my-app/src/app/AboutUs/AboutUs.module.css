@@ -9,10 +9,11 @@
 }
 
 .mainTitle {
-  font-weight: 600;
-  font-size: 3.5rem;
-  color: #1a1a1a;
-  margin-bottom: 10px;
+  font-size: 3rem !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif !important;
+  margin-bottom: 40px !important;
 }
 
 .tagline {

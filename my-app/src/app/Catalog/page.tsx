@@ -11,34 +11,30 @@ export default function CatalogPage() {
   const [loading, setLoading] = useState(true); //indica daca datele sunt in curs de incarcare
 
   useEffect(() => {
-  async function fetchProducts() {
-    try {
-      const url = 'http://localhost:1337/api/projects?populate=*&pagination[page]=1&pagination[pageSize]=100';
-      const response = await axios.get(url);
-      setProducts(response.data.data || []);
-      
-      // --- COD NOU PENTRU SCROLL ---
-      // Așteptăm un timp minuscul ca React să deseneze elementele pe ecran
-      setTimeout(() => {
-        const hash = window.location.hash; // Verifică dacă avem #ceva în URL
-        if (hash) {
-          const id = hash.replace('#', '');
-          const element = document.getElementById(id);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+    async function fetchProducts() {
+      try {
+        const url = 'http://localhost:1337/api/projects?populate=*&pagination[page]=1&pagination[pageSize]=100';
+        const response = await axios.get(url);
+        setProducts(response.data.data || []);
+        setTimeout(() => {
+          const hash = window.location.hash;
+          if (hash) {
+            const id = hash.replace('#', '');
+            const element = document.getElementById(id);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+            }
           }
-        }
-      }, 100); // 100ms sunt suficiente
-      // -----------------------------
+        }, 100);
 
-    } catch (error) {
-      console.error('Eroare:', error);
-    } finally {
-      setLoading(false);
+      } catch (error) {
+        console.error('Eroare:', error);
+      } finally {
+        setLoading(false);
+      }
     }
-  }
-  fetchProducts();
-}, []);
+    fetchProducts();
+  }, []);
 
   const filterByCategory = (categoryTitle: string) => { //filtreaza conform categoriei
     return products.filter((p: any) => {
@@ -63,11 +59,11 @@ export default function CatalogPage() {
 
   return (
     <Container maxWidth="xl" className={styles.catalogContainer}>
-      <Typography variant="h1" className={styles.mainTitle} sx={{ mb: 4 }}>Catalog</Typography>
+      <Typography className={styles.mainTitle} sx={{ mb: 4 }}>Catalog</Typography>
 
-      <Alert severity={products.length >= 60 ? "success" : "warning"} sx={{ mb: 4 }}>
+      {/* <Alert severity={products.length >= 60 ? "success" : "warning"} sx={{ mb: 4 }}>
         Produse primite de la server: **{products.length}**
-      </Alert>
+      </Alert> */}
 
       {sections.map((section) => {
         const filtered = filterByCategory(section.strapi);
@@ -80,7 +76,7 @@ export default function CatalogPage() {
               {filtered.length > 0 ? (
                 filtered.map((product: any) => ( //afiseaza doar produsele care se potrivesc categoriei
                   <Box key={product.id} className={styles.productWrapper}>
-                    <ProductCard {...product} /> {/* transmite toate datele produsului catre card */ }
+                    <ProductCard {...product} />
                   </Box>
                 ))
               ) : (

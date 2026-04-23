@@ -94,7 +94,7 @@ export default function AboutPage() {
       <section id="location" className={styles.whiteSection}>
         <Container maxWidth="lg">
           <Typography variant="h3" className={styles.centeredTitle}>
-            Locația noastră
+            Our Location
           </Typography>
           <Box sx={{ height: '50px' }} />
           <div className={styles.mapContainer}>

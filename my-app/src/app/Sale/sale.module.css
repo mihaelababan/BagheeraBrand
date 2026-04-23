@@ -56,3 +56,11 @@
   margin-right: 15px;
   font-weight: 400;
 }
+.mainTitle {
+  font-size: 4rem !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif !important;
+  margin-bottom: 40px !important;
+  margin-top: 60px !important;
+}
