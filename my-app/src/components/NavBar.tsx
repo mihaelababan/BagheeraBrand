@@ -83,7 +83,7 @@ export default function Navbar() {
           disableScrollLock
         >
           <MenuItem onClick={handleProfileClose} component={Link} href="/MyAccount" className={styles.menuItem}>My Account</MenuItem>
-          <MenuItem onClick={handleProfileClose} component={Link} href="/favorites" className={styles.menuItem}>Favorites</MenuItem>
+          <MenuItem onClick={handleProfileClose} component={Link} href="/Favorites" className={styles.menuItem}>Favorites</MenuItem>
           <MenuItem onClick={handleProfileClose} component={Link} href="/cart" className={styles.menuItem}>Cart</MenuItem>
         </Menu>
 

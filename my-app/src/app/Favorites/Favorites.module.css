@@ -1,0 +1,65 @@
+.pageBackground {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.pageWrapper {
+  padding-top: 150px; 
+  padding-bottom: 100px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.categoryLabel {
+  letter-spacing: 3px !important;
+  color: #888;
+  font-weight: 400;
+}
+
+.mainTitle {
+  font-family: 'Serif', 'Times New Roman', serif !important;
+  font-weight: 400 !important;
+  font-size: 3.5rem !important;
+  letter-spacing: 5px !important;
+  margin-top: 10px !important;
+  color: #000;
+}
+
+.underline {
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  margin: 20px auto;
+}
+
+.productGrid {
+  display: grid;
+  gap: 40px 25px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.emptyState {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.emptyText {
+  font-family: 'Serif', serif !important;
+  font-style: italic;
+  margin-bottom: 15px !important;
+}
+
+.emptySubtext {
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.loaderContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
