@@ -84,7 +84,7 @@ export default function Navbar() {
         >
           <MenuItem onClick={handleProfileClose} component={Link} href="/MyAccount" className={styles.menuItem}>My Account</MenuItem>
           <MenuItem onClick={handleProfileClose} component={Link} href="/Favorites" className={styles.menuItem}>Favorites</MenuItem>
-          <MenuItem onClick={handleProfileClose} component={Link} href="/cart" className={styles.menuItem}>Cart</MenuItem>
+          <MenuItem onClick={handleProfileClose} component={Link} href="/Cart" className={styles.menuItem}>Cart</MenuItem>
         </Menu>
 
         <Dialog

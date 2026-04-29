@@ -5,22 +5,34 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import styles from './ProductCard.module.css';
 
-export default function ProductCard({ id, Name, Price, Image, Description }: any) { //ia json de la strapi
+interface ProductProps {
+  id: number;
+  Name: string;
+  Price: number;
+  Image: any;
+  Description?: string;
+  onToggle?: (id: number) => void;
+}
+
+export default function ProductCard({ id, Name, Price, Image, Description, onToggle }: ProductProps) {
   const [isFavorite, setIsFavorite] = useState(false);
   
   const strapiBaseUrl = 'http://localhost:1337';
 
-  const imageUrl = (Image && Image.length > 0) //verifica daca exista imagine
-    ? `${strapiBaseUrl}${Image[0].url}` //construieste url complet pentru imagine
-    : 'https://via.placeholder.com/300x400?text=Fara+Imagine';
+  // Construirea URL-ului imaginii
+  const imageUrl = (Image && Image.length > 0)
+    ? `${strapiBaseUrl}${Image[0].url}`
+    : 'https://via.placeholder.com/300x400?text=No+Image';
 
-    useEffect(() => {
+  // Verificare stare favorite la încărcare
+  useEffect(() => {
     const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
     if (favorites.includes(id)) {
       setIsFavorite(true);
     }
   }, [id]);
 
+  // Logică Favorite (Negru contur -> Roșu plin)
   const toggleFavorite = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation(); 
@@ -35,6 +47,23 @@ export default function ProductCard({ id, Name, Price, Image, Description }: any
 
     localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
     setIsFavorite(!isFavorite);
+    
+    if (onToggle) onToggle(id);
+  };
+
+  // Logică Shopping Cart (Coș)
+  const addToCart = () => {
+    const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+    const existingItemIndex = cart.findIndex((item: any) => item.id === id);
+
+    if (existingItemIndex > -1) {
+      cart[existingItemIndex].quantity += 1;
+    } else {
+      cart.push({ id, quantity: 1 });
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(`${Name} has been added to your bag.`);
   };
 
   return (
@@ -44,25 +73,20 @@ export default function ProductCard({ id, Name, Price, Image, Description }: any
         onClick={toggleFavorite}
         disableRipple
       >
-        {isFavorite ? (
-          
-          <FavoriteIcon sx={{ color: '#ff4d4d' }} /> 
-        ) : (
-          <FavoriteBorderIcon sx={{ color: '#e0e0e0' }} />
-        )}
+        {isFavorite ? <FavoriteIcon /> : <FavoriteBorderIcon />}
       </IconButton>
 
       <Box className={styles.imageContainer}>
         <CardMedia
           component="img"
           image={imageUrl}
-          alt={Name || "Produs"}
+          alt={Name || "Product"}
           className={styles.productImage}
         />
       </Box>
 
       <CardContent className={styles.content}>
-        <Box>
+        <Box className={styles.infoSection}>
           <Typography variant="h6" className={styles.productName}>
             {Name}
           </Typography>
@@ -73,11 +97,15 @@ export default function ProductCard({ id, Name, Price, Image, Description }: any
           )}
         </Box>
 
-        <Box>
+        <Box className={styles.actionSection}>
           <Typography variant="h6" className={styles.price}>
             {Price} MDL
           </Typography>
-          <Button fullWidth className={styles.buyButton}>
+          <Button 
+            fullWidth 
+            className={styles.buyButton} 
+            onClick={addToCart}
+          >
             Buy
           </Button>
         </Box>

@@ -100,11 +100,34 @@
 }
 
 .buyButton:hover {
-  background-color: #333 !important;
+  background-color: #404040 !important;
 }
 .favoriteIcon {
   transition: transform 0.2s ease;
 }
 .favoriteIcon:active {
   transform: scale(1.3);
+}
+/* Starea inițială: Inima goală cu contur negru */
+.favoriteButton svg {
+  color: #959595 !important; /* Negru pentru contur */
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-size: 1.5rem;
+}
+
+.favoriteButton:hover svg {
+  transform: scale(1.1);
+}
+
+/* Starea activă: Inima plină roșie */
+.activeFavorite svg {
+  color: #ff4d4d !important; /* Roșu aprins */
+  /* Putem adăuga și un mic efect de puls la activare */
+  animation: pulse 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
 }
